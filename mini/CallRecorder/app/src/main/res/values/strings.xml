@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CallRecorder</string>
+    <string name="call">Call</string>
+    <string name="select_contact">Select Contact</string>
+    <string name="unselect_contact">Unselect Contact</string>
+    <string name="call_permission_error">Grant Phone call permission and try again!</string>
+    <string name="phone_state_permission_error">Grant ReadPhoneState permission and try again</string>
+    <string name="audio_record_permission_error">Grant AudioRecord permission and try again</string>
+</resources>

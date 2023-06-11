@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:flow_horizontalAlign="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/edittext_width"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_marginBottom="@dimen/edittext_margin"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:paddingHorizontal="@dimen/edittext_padding_horizontal"
+            android:paddingVertical="@dimen/edittext_margin" />
+
+        <EditText
+            android:id="@+id/email"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/edittext_width"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_marginBottom="@dimen/edittext_margin"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="@dimen/edittext_padding_horizontal"
+            android:paddingVertical="@dimen/edittext_margin" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/edittext_width"
+            android:layout_height="@dimen/edittext_height"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginBottom="@dimen/edittext_margin"
+            android:hint="@string/take_test"
+            android:paddingHorizontal="@dimen/edittext_padding_horizontal"
+            android:paddingVertical="@dimen/edittext_margin" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
